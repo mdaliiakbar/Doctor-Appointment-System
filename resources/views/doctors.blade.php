@@ -1,5 +1,18 @@
 @extends('layouts.app')
 @section('title', 'Doctors')
+
+@section('assets')    
+		<!-- Datetimepicker CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+		<!-- Sticky Sidebar JS -->
+        <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+        <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+		
+		<!-- Datetimepicker JS -->
+		<script src="assets/js/moment.min.js"></script>
+		<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+@endsection
+
 @section('contents')
     <!-- Breadcrumb -->
     <div class="breadcrumb-bar">
@@ -170,7 +183,7 @@
                                     </div>
                                     <div class="clinic-booking">
                                         <a class="view-pro-btn" href="doctor-profile.html">View Profile</a>
-                                        <a class="apt-btn" href="booking.html">Book Appointment</a>
+                                        <a class="apt-btn" href="{{ route('schedule') }}">Book Appointment</a>
                                     </div>
                                 </div>
                             </div>

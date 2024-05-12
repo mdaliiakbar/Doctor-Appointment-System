@@ -20,7 +20,10 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
 
+@yield("assets")
 </head>
 
 <body>
@@ -34,9 +37,6 @@
 
     </div>
     <!-- /Main Wrapper -->
-
-    <!-- jQuery -->
-    <script src="assets/js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JS -->
     <script src="assets/js/popper.min.js"></script>

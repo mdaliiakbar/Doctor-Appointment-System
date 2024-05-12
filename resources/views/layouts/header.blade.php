@@ -29,8 +29,11 @@
                 <li class="{{ Request::is('doctors') ? 'active' : '' }}">
                     <a href="{{ route('doctors') }}">Doctors</a>
                 </li>
-                <li class="{{ Request::is('login') ? 'active' : '' }}">
-                    <a href="{{ route('login') }}">Login</a>
+                <li class="{{ Request::is('patient-login') ? 'active' : '' }}">
+                    <a href="{{ route('patient-login') }}">Patient Login</a>
+                </li>
+                <li class="{{ Request::is('doctor-login') ? 'active' : '' }}">
+                    <a href="{{ route('doctor-login') }}">Doctor Login</a>
                 </li>
             </ul>
         </div>

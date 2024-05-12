@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Login')
+@section('title', 'Doctor Login')
 @section('contents')
 
     <!-- Page Content -->
@@ -17,7 +17,7 @@
                             </div>
                             <div class="col-md-12 col-lg-6 login-right">
                                 <div class="login-header">
-                                    <h3>Login <span>Doctor Online</span></h3>
+                                    <h3>Login <span>Doctor</span></h3>
                                 </div>
                                 <form action="index.html">
                                     <div class="form-group form-focus">
@@ -29,13 +29,12 @@
                                         <label class="focus-label">Password</label>
                                     </div>
                                     <div class="text-right">
-                                        <a class="forgot-link" href="forgot-password.html">Forgot Password ?</a>
+                                        <a class="forgot-link" href="#">Forgot Password ?</a>
                                     </div>
                                     <button class="btn btn-primary btn-block btn-lg login-btn" type="submit">Login</button>
 
-
                                     <div class="text-center dont-have">Don’t have an account? <a
-                                            href="register.html">Register</a></div>
+                                            href="{{ route ('doctor-register')}}">Register</a></div>
                                 </form>
                             </div>
                         </div>

@@ -1,7 +1,6 @@
 /*
-Author       : Dreamguys
-Template Name: Doccure - Bootstrap Template
-Version      : 1.3
+Author       : Ali Akbar
+Version      : 1.3.0
 */
 
 (function($) {

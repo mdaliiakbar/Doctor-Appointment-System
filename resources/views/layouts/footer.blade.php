@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-12">
                         <div class="copyright-text text-center">
-                            <p class="mb-0">&copy; 2024 Doctor Online. All rights reserved.</p>
+                            <p class="mb-0">&copy; {{ date("Y")}} Doctor Online. All rights reserved. Developed By Ali Akbar (220312022)</p>
                         </div>
                     </div>
                   
